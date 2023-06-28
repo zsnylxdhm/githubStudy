@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class UserController {
-@RequestMapping("/logout")
+    @RequestMapping("/query")
     public void logout(){
-    System.out.println("退出");
-}
+        System.out.println("查询");
+    }
 }
